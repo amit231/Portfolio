@@ -33,11 +33,11 @@ const greeting = {
 }
 
 const socialMediaLinks = {
-    github: "https://github.com/feifyKike",
-    linkedin: "https://www.linkedin.com/in/maxim-shelepov1",
-    medium: "https://medium.com/@mimaishel",
+    github: "https://github.com/amit231",
+    linkedin: "https://www.linkedin.com/in/engineer-amit/",
+    medium: "https://medium.com/@amitsharma0843",
     stackoverflow: "",
-    xtwitter: "https://twitter.com/mimaishel"
+    xtwitter: "https://x.com/coz_m_high"
 } // to add any additional social media links check out the README.md or src/icons.js file
 
 // --- 😎 About Section ---
@@ -64,42 +64,45 @@ const experiences = [
     {
         position: "Web Dev Intern",
         company: {
-            name: "WolfTech",
-            link: "https://tools.wolftech.ncsu.edu/support/index.php/WolfTech_Information_Technology"
+            name: "Buffer Finance - Nurturelabs",
+            link: "https://nurturelabs.co/"
         },
-        duration: "Aug 2022 - Present",
+        duration: "Sept 2021 - Present",
         bulletPoints: [
-            "Resolved issues and developed new tools within several university web applications (email automation, research discovery, educational resources, scheduling tools, and text-generative AI news sharing).",
-            "Achieved 100+ github code contributions as an intern on the team.",
-            "Currently rebuilding and modernizing the university digital sign manager and system."
+            "Developed a real-time trading platform delivering live feeds packed in a seamless UX which is handling millions in trading volume.",
+            "Architected suite of versatile React UI components, deployed in multiple applications, accelerating project delivery timelines & efficiency by 20%.",
+            "Reduced main thread load by 30% in version 2 by eliminating unnecessary re-renders identified through constant performance monitoring cycles, significantly enhancing application efficiency."
         ],
         hashtags: [
-            "Laravel",
-            "PHP",
-            "MySQL",
+            "React",
             "JS",
-            "Vue.js",
+            "TS",
+            "PostgreSQL",
+            "CSS",
             "HTML",
             "Tailwind"
         ]
     },
     {
-        position: "Math Tutor",
+        position: "Frontend Developer",
         company: {
-            name: "Mathnasium",
-            link: "https://www.mathnasium.com"
+            name: "Cozmo - Nurturelabs",
+            link: "https://nurturelabs.co/"
         },
-        duration: "Jan 2022 - Aug 2022",
+        duration: "Aug 2020 - Sept 2021",
         bulletPoints: [
-            "Taught math to students elementary through high school covering topics from basic algebra to college-level calculus.",
-            "Directed the trajectory of the student's learning plan and math topic evaluation to facilitate success in their school math class.",
-            "Requested by many students and parents for routine weekly tutoring sessions in a system with a standard random weekly rotation."
+            "Engineered a comprehensive frontend solution for a lead management app, encompassing both native mobile and web platforms with real-time location features.",
+            "Implemented complete notification machanism using push notifications and CRON jobs, enhancing user engagement by 10% through timely and efficient updates.",
+            "Segregated business logic into custom hooks to achieve encapsulation, significantly enhancing frontend development efficiency."
         ],
         hashtags: [
-            "Calc 1-2",
-            "Algebra 1-3",
-            "Discrete Math",
-            "Statistics"
+            "React",
+            "JS",
+            "TS",
+            "PostgreSQL",
+            "CSS",
+            "HTML",
+            "React Native"
         ]
     }
 ]
@@ -116,7 +119,7 @@ const works = [
             {
                 label: "",
                 type: "Medium",
-                url: "https://github.com/feifyKike/TrackYourSubsDemo/"
+                url: "https://medium.com/@amitsharma0843/usegstate-f7e8be11a1f4"
             },
             {
                 label: "",
@@ -128,15 +131,15 @@ const works = [
         alignLeft: false
     },
     {
-        projectName: "Dynamic Portfolio Website",
+        projectName: "Sorting Algorithm Visualizers",
         yearCompleted: "2021",
-        description: "Developed a personal portfolio website with Python backend using the Django web development framework. Incorporated HTML, CSS, and JavaScript to construct the frontend of the website.",
+        description: "Developed an interactive JavaScript web app to visualize five sorting algorithms, including Quick and Merge Sort. Integrated dynamic controls for input size and speed.",
         techStack: "Django, Python, HTML, CSS, JS",
         links: [
             {
                 label: "",
                 type: "external",
-                url: "https://maximshelepov.com"
+                url: "https://amit231.github.io/sotingVizJS/"
             }
         ],
         imageLink: "images/portfolio_pic.png",
@@ -145,18 +148,18 @@ const works = [
     {
         projectName: "SPS game with Live Scores",
         yearCompleted: "2021",
-        description: "Stone Paper Scisor Lizard Spock game with live scores. The game is played between the user and the computer. The user can select their choice and the computer will randomly select its choice and score will be updated real-time.",
+        description: "Stone Paper Scisor Lizard Spock game with live scores. The game is played between the user and the computer that too real-time.",
         techStack: "Javascript, MaterialUI, Sass",
         links: [
             {
                 label: "",
                 type: "git",
-                url: "https://github.com/feifyKike/sudokusolver"
+                url: "https://github.com/amit231/feMentorGame"
             },
             {
                 label: "",
                 type: "external",
-                url: "https://youtu.be/lXOjOrjf5hU"
+                url: "https://amit231.github.io/game/#/"
             }
         ],
         imageLink: "images/gamels.png",
@@ -212,11 +215,11 @@ const contact = {
     externalLink: {
         shortTitle: "Get in Touch",
         note: [
-            "Currently seeking web and software development positions/internships in the RTP area for summer 2024.",
+            "Need expert software development? Reach out to me via email and let's get started!",
             "Also looking to build a team for projects & startup ideas or just make professional connections."
         ], // paragraph breaks will be entered after each item,
         link: {
-            email: "", // email takes precedance
+            email: "amitsharma0843@gmail.com", // email takes precedance
             other: "https://forms.gle/W3MswTKsPWMxEbn58"
         },
         responseTimeMessage: "...and I'll resopnd within the next 24hrs"
