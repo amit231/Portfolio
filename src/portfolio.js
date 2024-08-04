@@ -54,9 +54,9 @@ const about = {
         "DBMS",
         "Node.js",
     ],
-    photo1Link: "images/portrait1.jpeg",
-    photo2Link: "images/portrait2.jpeg",
-    photo3Link: "images/portrait3.jpeg"
+    photo1Link: "images/Portrait1.jpeg",
+    photo2Link: "images/Portrait2.jpeg",
+    photo3Link: "images/Portrait3.jpeg"
 }
 
 // --- 🛡️ Experience Section ---
