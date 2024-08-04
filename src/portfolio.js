@@ -24,7 +24,7 @@ const greeting = {
     name: "Amit Sharma",
     message: `I'm a Software Developer with industry-tested technical skills. Specializing in Frontend Development, I have a deep understanding of web technologies and a good working proﬁciency in Backend development, enabling me to collaborate across the full stack development eﬀectively.`,
     basedLocation: "Hamirpur, Himachal Pradesh HP",
-    resumeLink: "https://docs.google.com/document/d/1Sa_sK3RMusoezzgzxu8LkV16i2Jra2qd/edit?usp=sharing&ouid=113657039181859132688&rtpof=true&sd=true", // recommended: google drive file share link (change to "anyone on the internet can view")
+    resumeLink: "https://drive.google.com/file/d/1waKyuRqleAvgxYSMNMzr7JZBURTR6fCk/view", // recommended: google drive file share link (change to "anyone on the internet can view")
     logo: {
         link: "images/Alogo.png", // use relative path from  parent directory -> ex: images/image.ext
         custom: true // takes precedence over image logo and allows for custom HTML logo (./components/Navbar.vue)
@@ -163,46 +163,6 @@ const works = [
             }
         ],
         imageLink: "images/gamels.png",
-        alignLeft: false
-    },
-    {
-        projectName: "Trivia Quiz",
-        yearCompleted: "2020",
-        description: "Interested in taking a fun and interactive pop quiz? Using the HTML, CSS3, JavaScript, and jQuery I created a quiz that can be taken on numerous topics of your choice and gives instant feedback. The entire project is built mostly on JavaScript and all the functionality and events are controlled through functions such as ReadDisplay and Validate. The HTML portion of the online quiz only serves as the skeleton and template for elements that will be created via JS.",
-        techStack: "JS, HTML, CSS",
-        links: [
-            {
-                label: "",
-                type: "git",
-                url: "https://github.com/feifyKike/JS-API-Quiz"
-            },
-            {
-                label: "",
-                type: "external",
-                url: "https://codepen.io/Max_the_coder/pen/yLXZOYL" //https://codepen.io/Max_the_coder/pen/yLXZOYL
-            }
-        ],
-        imageLink: "images/trivia_pic.png",
-        alignLeft: true
-    },
-    {
-        projectName: "Coronavirus Report",
-        yearCompleted: "2020",
-        description: "Created a program that displays up-to-date COVID-19 data and shows results in a graphical / visual representation. Coded with the Python programming language and libraries such as Matplotlib, Requests, and CSV.",
-        techStack: "Python",
-        links: [
-            {
-                label: "",
-                type: "git",
-                url: "https://youtu.be/gw5kb1QKVp0"
-            },
-            {
-                label: "",
-                type: "external",
-                url: "https://github.com/feifyKike/Covid-Cases-Visual"
-            }
-        ],
-        imageLink: "images/covid_pic.png",
         alignLeft: false
     }
 ]
