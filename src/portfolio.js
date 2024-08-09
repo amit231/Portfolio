@@ -62,7 +62,7 @@ const about = {
 // --- 🛡️ Experience Section ---
 const experiences = [
     {
-        position: "Web Dev Intern",
+        position: "Sr. Frontend Developer",
         company: {
             name: "Buffer Finance - Nurturelabs",
             link: "https://nurturelabs.co/"
@@ -167,7 +167,7 @@ const works = [
     }
 ]
 
-const archiveLink = "https://github.com/feifyKike?tab=repositories"
+const archiveLink = "https://github.com/amit231?tab=repositories"
 
 // --- 📭 Contact Section ---
 // 2 Options available - Choose 1

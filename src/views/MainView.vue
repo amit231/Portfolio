@@ -58,7 +58,7 @@
 				</div>
 				<footer class="order-last block mb-5 text-sm text-center md:hidden">
 					<p>🚀 Designed & Created by <a href="https://www.linkedin.com/in/engineer-amit/" class="hover:text-link-color" target="_blank">Amit Sharma</a></p>
-					<a href="https://github.com/feifyKike/webdev_portfolio" class="hover:text-link-color" target="_blank">Code available on Github 👾</a>
+					<a href="https://github.com/amit231/Portfolio" class="hover:text-link-color" target="_blank">Code available on Github 👾</a>
 				</footer>
 			</div>
 		</div>
